@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>nymisha's web page</title>
+    <link rel="stylesheet" href="inheritance-nymisha.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .grid {
+            background-color: #cc6600;
+            display: grid;
+            padding: 16px;
+            grid-column-gap: 14px;
+            grid-row-gap: 12px;
+            grid-template-columns:  auto auto auto;
+        }
+
+        .grid > div {
+            background-color: #fff3e6;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+            }
+        .grid-item0 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+                }
+        .grid-item2 {
+             grid-row-start: 2;
+             grid-row-end: 4;
+             text-align: left;
+           }
+        ul, li {
+          font-size:20px;
+        }
+        h1{ text-align:center;
+          color:#ff0066;
+          border-style: solid  ;
+        }
+      </style>
+
+  </head>
+  <body>
+    <h1>Nymi's page</h1>
+    <ul>
+      <li><a href="nesting-vasantha.html" >Click for Vasantha's page</a></li>
+      <li><a href="harin.html" >Click for Harin's page</a></li>
+      <li><a href="variable-baburao-tablesttyles.html" >Click for Baburao's page</a></li>
+    </ul>
+    <div class="grid">
+            <div class="grid-item0">0</div>
+            <div class="grid-item1">1</div>
+            <div class="grid-item2">2</div>
+            <div class="grid-item3">3</div>
+            <div class="grid-item4">4</div>
+            <div class="grid-item5">5</div>
+            <div class="grid-item6">6</div>
+            <div class="grid-item7">7</div>
+            <div class="grid-item8">8</div>
+            <div class="grid-item9">9</div>
+    </div>
+    <body>
+
+        <div class="success">This is a SUCCESS message displayed using inheritance message alert.</div>
+
+        <div class="warning">This is a WARNING message displayed using inheritance message alert.</div>
+
+        <div class="error">This is an ERROR message displayed using inheritance message alert.</div>
+
+    </body>
+  </body>
+</html>

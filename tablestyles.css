@@ -1,0 +1,24 @@
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  color: green; }
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  background: #ffff99;
+  color: green; }
+
+th {
+  background: #ffccff;
+  color: green; }
+
+h1 {
+  text-align: center; }
+
+div {
+  margin: 30px; }
+
+/*# sourceMappingURL=tablestyles.css.map */
